@@ -1,0 +1,105 @@
+
+<html>
+<head>
+	<title>Enter CTF</title>
+</head>
+
+
+<style type="text/css">
+	header
+	{
+		width: 100%;
+		height: 10%;
+		position: absolute;
+		font-family: monospace;
+		background-color: black;
+		color:white;
+		left: 0;
+		top: 0;
+		text-align: center;
+	}
+	footer
+	{
+		position: fixed;
+		bottom: 0;
+		font-family: monospace;
+		background-color:  black;
+		width: 100%;
+		text-align: center;
+		color:white;
+		left: 0;
+	}
+	input
+	{
+		font-family: monospace;
+		text-align: center;
+		font-size: 16px;
+		width: 22%;
+		height: 6%;
+		position: absolute;
+		margin-left: 780px;
+		margin-top: 360px;
+	}
+	
+	::placeholder
+	{
+		font-family: monospace;
+		text-align: center;
+		font-size: 20px;	
+	}
+	p
+	{
+		position: absolute;
+		margin-left: 780px;
+		margin-top: 180px;
+		font-size: 30px;
+		font-family: monospace;
+	}
+	button
+	{
+		background-color: black;
+		color: white;
+		position: absolute;
+		margin-left: 780px;
+		bottom: 190px;
+		width: 22.5%;
+		height: 6%;
+		font-family: monospace;
+		font-size: 20px;		
+	}
+	button:active
+	{
+		background-color: snow;
+		color:black;
+	}
+	
+</style>
+
+<script type="text/javascript" src="javascript1.js">
+</script>	 
+
+<body>
+	<header><h1>CTF - Capture The Flag </h1></header>
+
+	<p style="margin-left: 60px;margin-top: 280px; font-size: 30px;">Video is a great place <br>to hide the flag
+		<br><br>
+		<span style="font-size: 25px;font-family: monospace;">..Open the video using vlc</span>
+
+	</p>
+
+	<p style="position: absolute;margin-left: 820px">Try not to Blink ;)</p>	
+
+	<a href="video.mp4" style="position: absolute;margin-left: 840px;font-family: monospace; font-size: 20px;margin-top: 270px;">
+	Click here for the video</a>
+
+
+	
+
+	<input type="text" placeholder="flag" id="video_text" style="height: 50px;width: 400px;">
+	<br>
+	<button onclick="check_videoflag()" style="width: 400px;height: 50px;bottom:160px;" >Submit</button>
+
+	<footer><h3>Sai Vidya Institute of Technology</h3></footer>
+
+</body>
+</html>
